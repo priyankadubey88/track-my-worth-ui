@@ -1,0 +1,24 @@
+[
+  {
+    "investmentType": "Cash and Investments",
+    "data": [
+      { "description": "Chequing", "amount": 2000.0 },
+      { "description": "Savings for Taxes", "amount": 4000.0 },
+      { "description": "Rainy Day Fund", "amount": 506.0 },
+      { "description": "Savings for Fun", "amount": 5000.0 },
+      { "description": "Savings for Travel", "amount": 400.0 },
+      { "description": "Savings for Personal Development", "amount": 200.0 },
+      { "description": "Investment 1", "amount": 5000.0 },
+      { "description": "Investment 2", "amount": 60000.0 },
+      { "description": "Investment 3", "amount": 24000.0 }
+    ]
+  },
+  {
+    "investmentType": "Long Term Assets",
+    "data": [
+      { "description": "Primary Home", "amount": 455000.0 },
+      { "description": "Second Home", "amount": 1564321.0 },
+      { "description": "Other", "amount": 0.0 }
+    ]
+  }
+]

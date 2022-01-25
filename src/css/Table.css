@@ -1,0 +1,17 @@
+.assetTable td:nth-child(2) {
+  text-align: end;
+  white-space: nowrap;
+}
+
+.yourWorthTable td {
+  padding: 10px;
+}
+
+.yourWorthTable {
+  width: 100%;
+}
+
+.liabilityTable td:nth-child(3) {
+  text-align: end;
+  white-space: nowrap;
+}

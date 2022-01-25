@@ -1,0 +1,43 @@
+[
+  {
+    "liabilityType": "Short Term Liabilities",
+    "monthlyPaymentHeading": "Monthly Payment",
+    "data": [
+      {
+        "description": "Credit Card 1",
+        "monthlyPayment": 200.0,
+        "amount": 1500.0
+      },
+      {
+        "description": "Credit Card 2",
+        "monthlyPayment": 150.0,
+        "amount": 3000.0
+      }
+    ]
+  },
+  {
+    "liabilityType": "Long Term Debit",
+    "data": [
+      {
+        "description": "Mortgage 1",
+        "monthlyPayment": 2000.0,
+        "amount": 455000.0
+      },
+      {
+        "description": "Mortgage 2",
+        "monthlyPayment": 3500.0,
+        "amount": 1564321.0
+      },
+      {
+        "description": "Line of Credit",
+        "monthlyPayment": 500.0,
+        "amount": 24450.0
+      },
+      {
+        "description": "Investment Loan",
+        "monthlyPayment": 700.0,
+        "amount": 756.0
+      }
+    ]
+  }
+]
