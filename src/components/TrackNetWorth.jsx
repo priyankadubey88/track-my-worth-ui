@@ -115,25 +115,11 @@ const TrackNetWorth = () => {
     setSelectedCurrency(newCurrency);
   };
 
-  const handleAssetInputChangeOnBlur = (event) => {
-    const newAmount = Number(event.target.value);
-    let newData = { ...assets };
-    newData[event.target.getAttribute("name")] = newAmount.toFixed(2);
-    setAssets(newData);
-  };
-
   const handleAssetInputOnChange = (event) => {
     let newData = { ...assets };
     const newAmount = Number(event.target.value);
     newData[event.target.getAttribute("name")] = newAmount;
     setAssets(newData);
-  };
-
-  const handleLiabilityInputChangeOnBlur = (event) => {
-    const newAmount = Number(event.target.value);
-    let newData = { ...liabilities };
-    newData[event.target.getAttribute("name")] = newAmount.toFixed(2);
-    setLiabilities(newData);
   };
 
   const handleLiabilityInputOnChange = (event) => {
@@ -157,7 +143,6 @@ const TrackNetWorth = () => {
                 min="0"
                 value={assets[description] ? assets[description] : ""}
                 onChange={handleAssetInputOnChange}
-                onBlur={handleAssetInputChangeOnBlur}
               />
             </td>
           </tr>
@@ -189,7 +174,6 @@ const TrackNetWorth = () => {
                 min="0"
                 value={liabilities[description] ? liabilities[description] : ""}
                 onChange={handleLiabilityInputOnChange}
-                onBlur={handleLiabilityInputChangeOnBlur}
               />
             </td>
           </tr>
